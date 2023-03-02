@@ -16,7 +16,7 @@ const ChatScreen = () => {
   return (
     <View className="flex h-full">
     <View className="">
-        <View className="pt-16 pb-4 flex-row bg-white items-center pl-5 justify-center  gap-x-24">
+    <View className="pt-16 pb-4 flex-row bg-white items-center pl-5 justify-between  ">
         <TouchableOpacity>
           <ArrowLeftIcon color={"#244b65"} size={30}/>
         </TouchableOpacity >
@@ -43,38 +43,12 @@ const ChatScreen = () => {
                 <Text className='text-lg font-semibold text-[#244b65]'>Nikita Arora</Text>
                 <Text className='text-xs   text-gray-500'>Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit, sed diam nonummy</Text>
             </View>
-            <View className="absolute bg-blue-400 right-4 bottom-4 h-5 w-5 rounded-full">
-                <Text className="text-white font-bold text-center pt-0.5">3</Text>
+            <View className="absolute flex justify-center bg-blue-400 right-4 bottom-4 h-5 w-5 rounded-full">
+                <Text className="text-white font-bold text-center ">3</Text>
             </View>
         </View>
-        <View className="bg-white flex-row items-center rounded-xl  drop-shadow-xl shadow-black w-full h-20">
-            <View className="p-3"><Image
-            className="h-14 rounded-full w-14"
-            source={{uri:"https://htmlcolorcodes.com/assets/images/colors/light-gray-color-solid-background-1920x1080.png"}}
-            />
-            </View>
-            <View className="pr-28 ">
-                <Text className='text-lg font-semibold text-[#244b65]'>Nikita Arora</Text>
-                <Text className='text-xs   text-gray-500'>Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit, sed diam nonummy</Text>
-            </View>
-            <View className="absolute bg-blue-400 right-4 bottom-4 h-5 w-5 rounded-full">
-                <Text className="text-white font-bold text-center pt-0.5">3</Text>
-            </View>
-        </View>
-        <View className="bg-white flex-row items-center rounded-xl  drop-shadow-xl shadow-black w-full h-20">
-            <View className="p-3"><Image
-            className="h-14 rounded-full w-14"
-            source={{uri:"https://htmlcolorcodes.com/assets/images/colors/light-gray-color-solid-background-1920x1080.png"}}
-            />
-            </View>
-            <View className="pr-28 ">
-                <Text className='text-lg font-semibold text-[#244b65]'>Nikita Arora</Text>
-                <Text className='text-xs   text-gray-500'>Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit, sed diam nonummy</Text>
-            </View>
-            <View className="absolute bg-blue-400 right-4 bottom-4 h-5 w-5 rounded-full">
-                <Text className="text-white font-bold text-center pt-0.5">3</Text>
-            </View>
-        </View>
+        
+        
 
         <View className="bg-white flex-row items-center rounded-xl  drop-shadow-xl shadow-black w-full h-20">
             <View className="p-3"><Image
@@ -86,8 +60,47 @@ const ChatScreen = () => {
                 <Text className='text-lg font-semibold text-[#244b65]'>Nikita Arora</Text>
                 <Text className='text-xs   text-gray-500'>Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit, sed diam nonummy</Text>
             </View>
-            <View className="absolute bg-blue-400 right-4 bottom-4 h-5 w-5 rounded-full">
-                <Text className="text-white font-bold text-center pt-0.5">3</Text>
+            <View className="absolute flex justify-center bg-blue-400 right-4 bottom-4 h-5 w-5 rounded-full">
+                <Text className="text-white font-bold text-center ">3</Text>
+            </View>
+        </View><View className="bg-white flex-row items-center rounded-xl  drop-shadow-xl shadow-black w-full h-20">
+            <View className="p-3"><Image
+            className="h-14 rounded-full w-14"
+            source={{uri:"https://htmlcolorcodes.com/assets/images/colors/light-gray-color-solid-background-1920x1080.png"}}
+            />
+            </View>
+            <View className="pr-28 ">
+                <Text className='text-lg font-semibold text-[#244b65]'>Nikita Arora</Text>
+                <Text className='text-xs   text-gray-500'>Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit, sed diam nonummy</Text>
+            </View>
+            <View className="absolute flex justify-center bg-blue-400 right-4 bottom-4 h-5 w-5 rounded-full">
+                <Text className="text-white font-bold text-center ">3</Text>
+            </View>
+        </View><View className="bg-white flex-row items-center rounded-xl  drop-shadow-xl shadow-black w-full h-20">
+            <View className="p-3"><Image
+            className="h-14 rounded-full w-14"
+            source={{uri:"https://htmlcolorcodes.com/assets/images/colors/light-gray-color-solid-background-1920x1080.png"}}
+            />
+            </View>
+            <View className="pr-28 ">
+                <Text className='text-lg font-semibold text-[#244b65]'>Nikita Arora</Text>
+                <Text className='text-xs   text-gray-500'>Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit, sed diam nonummy</Text>
+            </View>
+            <View className="absolute flex justify-center bg-blue-400 right-4 bottom-4 h-5 w-5 rounded-full">
+                <Text className="text-white font-bold text-center ">3</Text>
+            </View>
+        </View><View className="bg-white flex-row items-center rounded-xl  drop-shadow-xl shadow-black w-full h-20">
+            <View className="p-3"><Image
+            className="h-14 rounded-full w-14"
+            source={{uri:"https://htmlcolorcodes.com/assets/images/colors/light-gray-color-solid-background-1920x1080.png"}}
+            />
+            </View>
+            <View className="pr-28 ">
+                <Text className='text-lg font-semibold text-[#244b65]'>Nikita Arora</Text>
+                <Text className='text-xs   text-gray-500'>Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit, sed diam nonummy</Text>
+            </View>
+            <View className="absolute flex justify-center bg-blue-400 right-4 bottom-4 h-5 w-5 rounded-full">
+                <Text className="text-white font-bold text-center ">3</Text>
             </View>
         </View>
 
@@ -95,7 +108,7 @@ const ChatScreen = () => {
       </ScrollView>
 
 
-      <View className="absolute bottom-0    right-1 space-x-16 justify-center  bg-white w-full pt-3 pl-6  flex-row  h-20">
+      <View className="absolute bottom-0    space-x-16 justify-center  bg-white w-full pt-3    flex-row  h-20">
     
     <TouchableOpacity className="flex items-center"
     onPress={()=>{navigation.navigate("Home")}}

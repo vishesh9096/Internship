@@ -15,7 +15,7 @@ const JobDetailsScreen = () => {
     <View className="h-full">
 
         <View className="">
-                <View className="pt-16 pb-4 flex-row bg-white items-center pl-5 justify-center  gap-x-24">
+        <View className="pt-16 pb-4 flex-row bg-white items-center pl-5 justify-between  ">
                 <TouchableOpacity>
                 <ArrowLeftIcon color={"#244b65"} size={30}/>
                 </TouchableOpacity >

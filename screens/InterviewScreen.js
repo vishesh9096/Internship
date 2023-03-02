@@ -16,8 +16,9 @@ const InterviewScreen = () => {
     )
   return (
     <View className="h-full">
+      <ScrollView>
       <View className="pb-8">
-        <View className="pt-16 pb-4 flex-row bg-white items-center pl-5 justify-center  gap-x-24">
+      <View className="pt-16 pb-4 flex-row bg-white items-center pl-5 justify-between  ">
         <TouchableOpacity>
           <ArrowLeftIcon color={"#244b65"} size={30}/>
         </TouchableOpacity >
@@ -44,7 +45,7 @@ const InterviewScreen = () => {
 
       <Text className="text-center pt-4 text-gray-500">3 interviews to go</Text>
 
-      <ScrollView horizontal={true} className="px-4 pb-10 gap-x-5 pt-4">
+      <ScrollView horizontal={true} className="px-4  gap-x-5 pt-4">
         <TouchableOpacity className="bg-white h-48 rounded-2xl shadow-md flex items-center shadow-black w-40">
             <View className="pt-4">
               <Image 
@@ -94,13 +95,67 @@ const InterviewScreen = () => {
 
       <View className="w-full h-0.5 bg-gray-200"></View>
 
-      <View className="px-4">
-        <Text className="pt-3 text-xl text-[#0A2647] font-semibold">Enhance your interviewing skills</Text>
+      <View className="px-2 pt-2 ">
+        <Text className="pt-3 pl-3 text-xl text-[#0A2647] font-semibold">Enhance your interviewing skills</Text>
         <View className="px-1 pt-4">
 
-          <View className="w-full bg-white flex-row justify-between items-center h-12 rounded-2xl">
+          <View className=" bg-white flex-row justify-between items-center h-12 rounded-2xl">
             <View className="flex-row items-center gap-x-1">
-              <View className="pl-4">
+              <View className="pl-2">
+              <Image 
+              className="h-7 w-7 rounded-lg"
+              source={{uri:"https://htmlcolorcodes.com/assets/images/colors/light-gray-color-solid-background-1920x1080.png"}}
+              /></View>
+              <Text className=" text-[#0A2647] ">Role name •</Text>
+              <Text className="text-xs pt-0.5 text-gray-500 ">23.3k interviews - </Text>
+            </View>
+            <View>
+              <Text className="text-gray-500 pt-0.5 pr-4">Questions by Role</Text>
+            </View>
+          </View>
+
+        </View>
+        <View className="px-1 pt-4">
+
+          <View className=" bg-white flex-row justify-between items-center h-12 rounded-2xl">
+            <View className="flex-row items-center gap-x-1">
+              <View className="pl-2">
+              <Image 
+              className="h-7 w-7 rounded-lg"
+              source={{uri:"https://htmlcolorcodes.com/assets/images/colors/light-gray-color-solid-background-1920x1080.png"}}
+              /></View>
+              <Text className=" text-[#0A2647] ">Role name •</Text>
+              <Text className="text-xs pt-0.5 text-gray-500 ">23.3k interviews - </Text>
+            </View>
+            <View>
+              <Text className="text-gray-500 pt-0.5 pr-4">Questions by Role</Text>
+            </View>
+          </View>
+
+        </View>
+        <View className="px-1 pt-4">
+
+          <View className=" bg-white flex-row justify-between items-center h-12 rounded-2xl">
+            <View className="flex-row items-center gap-x-1">
+              <View className="pl-2">
+              <Image 
+              className="h-7 w-7 rounded-lg"
+              source={{uri:"https://htmlcolorcodes.com/assets/images/colors/light-gray-color-solid-background-1920x1080.png"}}
+              /></View>
+              <Text className=" text-[#0A2647] ">Role name •</Text>
+              <Text className="text-xs pt-0.5 text-gray-500 ">23.3k interviews - </Text>
+            </View>
+            <View>
+              <Text className="text-gray-500 pt-0.5 pr-4">Questions by Role</Text>
+            </View>
+          </View>
+
+        </View>
+        <View className="px-1 pt-4">
+
+          <View className=" bg-white flex-row justify-between items-center h-12 rounded-2xl">
+            <View className="flex-row items-center gap-x-1">
+              <View className="pl-2">
               <Image 
               className="h-7 w-7 rounded-lg"
               source={{uri:"https://htmlcolorcodes.com/assets/images/colors/light-gray-color-solid-background-1920x1080.png"}}
@@ -115,76 +170,20 @@ const InterviewScreen = () => {
 
         </View>
 
-        <View className="px-1 pt-4">
+        
 
-<View className="w-full bg-white flex-row justify-between items-center h-12 rounded-2xl">
-  <View className="flex-row items-center gap-x-1">
-    <View className="pl-4">
-    <Image 
-    className="h-7 w-7 rounded-lg"
-    source={{uri:"https://htmlcolorcodes.com/assets/images/colors/light-gray-color-solid-background-1920x1080.png"}}
-    /></View>
-    <Text className=" text-[#0A2647] ">Role name •</Text>
-    <Text className="text-xs pt-0.5 text-gray-500 ">23.3k interviews -</Text>
-  </View>
-  <View>
-    <Text className="text-gray-500 pt-0.5 pr-4">Questions by Role</Text>
-  </View>
-</View>
 
-</View>
 
-<View className="px-1 pt-4">
 
-<View className="w-full bg-white flex-row justify-between items-center h-12 rounded-2xl">
-  <View className="flex-row items-center gap-x-1">
-    <View className="pl-4">
-    <Image 
-    className="h-7 w-7 rounded-lg"
-    source={{uri:"https://htmlcolorcodes.com/assets/images/colors/light-gray-color-solid-background-1920x1080.png"}}
-    /></View>
-    <Text className=" text-[#0A2647] ">Role name •</Text>
-    <Text className="text-xs pt-0.5 text-gray-500 ">23.3k interviews -</Text>
-  </View>
-  <View>
-    <Text className="text-gray-500 pt-0.5 pr-4">Questions by Role</Text>
-  </View>
-</View>
-
-</View>
-
-<View className="px-1 pt-4">
-
-<View className="w-full bg-white flex-row justify-between items-center h-12 rounded-2xl">
-  <View className="flex-row items-center gap-x-1">
-    <View className="pl-4">
-    <Image 
-    className="h-7 w-7 rounded-lg"
-    source={{uri:"https://htmlcolorcodes.com/assets/images/colors/light-gray-color-solid-background-1920x1080.png"}}
-    /></View>
-    <Text className=" text-[#0A2647] ">Role name •</Text>
-    <Text className="text-xs pt-0.5 text-gray-500 ">23.3k interviews -</Text>
-  </View>
-  <View>
-    <Text className="text-gray-500 pt-0.5 pr-4">Questions by Role</Text>
-  </View>
-</View>
-
-<View className="flex-row items-center justify-center pt-4 gap-x-20">
-  <TouchableOpacity><Text className="text-xs text-blue-500 underline "> View All Companies</Text></TouchableOpacity>
-  <TouchableOpacity><Text className="text-xs text-blue-500 underline "> View All Questions</Text></TouchableOpacity>
-
-</View>
-
-</View>
 
       
  </View>
 
  <View className="h-32"></View>
+ </ScrollView>
 
 
-   <View className="absolute bottom-0  right-2 space-x-16 justify-center  bg-white w-full pt-3 pl-8  flex-row  h-20">
+ <View className="absolute bottom-0    space-x-16 justify-center  bg-white w-full pt-3    flex-row  h-20">
     
     <TouchableOpacity className="flex items-center"
     onPress={()=>{navigation.navigate("Home")}}

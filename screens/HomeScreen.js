@@ -23,7 +23,7 @@ const HomeScreen = () => {
 
       {/* header */}
 
-      <View className="pt-16 pb-4 flex-row bg-white items-center pl-5 justify-center  gap-x-28">
+      <View className="pt-16 pb-4 flex-row bg-white items-center pl-5 justify-between  ">
         <TouchableOpacity>
           <View className="h-10 w-10  bg-[#D3D3D3] rounded-lg">
           <View className="h-4 w-4 rounded-full  bg-green-500 absolute right-0">
@@ -197,7 +197,7 @@ const HomeScreen = () => {
       </ScrollView>
 
 
-<View className="absolute bottom-0   right-2 space-x-16 justify-center  bg-white w-full pt-3 pl-8  flex-row  h-20">
+<View className="absolute bottom-0    space-x-16 justify-center  bg-white w-full pt-3    flex-row  h-20">
     
     <TouchableOpacity className="flex items-center"
     onPress={()=>{navigation.navigate("Home")}}

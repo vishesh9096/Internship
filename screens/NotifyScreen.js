@@ -16,7 +16,7 @@ const NotifyScreen = () => {
   return (
     <View className="h-full">
         <View className="pb-4">
-        <View className="pt-16 pb-4 flex-row bg-white items-center pl-5 justify-center  gap-x-20">
+        <View className="pt-16 pb-4 flex-row bg-white items-center pl-5 justify-between  ">
         <TouchableOpacity>
           <ArrowLeftIcon color={"#244b65"} size={30}/>
         </TouchableOpacity >
@@ -86,7 +86,7 @@ const NotifyScreen = () => {
 
     </ScrollView>
 
-    <View className="absolute bottom-0   right-1 space-x-16 justify-center  bg-white w-full pt-3 pl-6  flex-row  h-20">
+    <View className="absolute bottom-0    space-x-16 justify-center  bg-white w-full pt-3    flex-row  h-20">
     
     <TouchableOpacity className="flex items-center"
     onPress={()=>{navigation.navigate("Home")}}

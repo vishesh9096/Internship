@@ -25,9 +25,9 @@ const LoginScreen = () => {
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
         className="bg-gray-200 flex-1 pt-28  h-full ">
             <View className="mx-8 gap-y-2">
-            <View className="pt-8 px-5 flex-row items-end">
+            <View className="pt-8 px-5 flex-row items-end justify-between">
                 <Text className="text-3xl font-semibold text-">Login</Text>
-                <View className=" pb-1 pl-36 ">
+                <View className=" pb-1  ">
                     <TouchableOpacity onPress={()=>{
                         navigation.navigate("Register")
                     }}>
@@ -41,7 +41,7 @@ const LoginScreen = () => {
                 <Text className="pl-2">E-mail Id/username</Text>
                 <View className="pt-1">
                 <TextInput placeholder='Enter user id or username' 
-                className="bg-white text-xl pl-2 border  w-80 h-10 rounded-xl"  />
+                className="bg-white text-xl pl-2 border  pt-2 pb-2 rounded-xl"  />
 
                 </View>
                 </View>
@@ -51,7 +51,7 @@ const LoginScreen = () => {
                 <Text className="pl-2">Password</Text>
                 <View className="pt-1">
                 <TextInput placeholder='Enter password' secureTextEntry={true}
-                className="bg-white text-xl pl-2 border  w-80 h-10 rounded-xl"  />
+                className="bg-white text-xl pl-2 border  py-2 rounded-xl"  />
 
                 </View>
                 <TouchableOpacity
@@ -74,20 +74,20 @@ const LoginScreen = () => {
             </View>
 
             <View className="pt-12 px-5">
-                <View className="flex-row items-center w-full gap-x-6 ">
+                <View className="flex-row items-center w-full justify-between  ">
                     <View className="bg-gray-300 h-0.5 w-32"></View>
                     <Text className="text-gray-500">Or</Text>
                     <View className="bg-gray-300 h-0.5 w-32"></View>
                 </View>
 
                 <View className="pt-12">
-                <TouchableOpacity className="w-full h-11 space-x-5 flex   bg-white rounded-xl border ">
-                        <View className="flex-row gap-x-16 pl-3 pt-1 items-center">
+                <TouchableOpacity className=" h-11 space-x-5 flex  w-full bg-white rounded-xl border ">
+                        <View className="flex-row justify-evenly  pl-3 pt-1 items-center">
                         <View className="">
                         <Image source={require('../assets/google.png')} className="h-6 w-6"/>
                         </View>
-                        <View>
-                        <Text className="pt-1  text-lg ">sign in with Google</Text>
+                        <View className="">
+                        <Text className="pt-1  text-lg    ">sign in with Google</Text>
                         </View>
                         </View>
                     </TouchableOpacity>
